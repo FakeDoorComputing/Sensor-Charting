@@ -25,10 +25,10 @@ $(document).on("pagecreate", "#chartPage", function () {
       		text: "X,Y,Z values"
       	},
       	axisX: {
-      		title: "Random Values"
+      		title: "Time (seconds)"
       	},
       	axisY: {
-      		title: "Time (seconds)"
+      		title: "Values"
       	},
       	data: [{
       		type: "line",
