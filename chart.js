@@ -80,7 +80,7 @@ function updateChart(acceleration) {
 
 		//don't let the chart get too big
 		//if there are more than 100 data points then start removing older data points
-      	if (xps.length >  100 )
+      	if (xps.length >  30 )
       	{
       		xps.shift();
 					yps.shift();
