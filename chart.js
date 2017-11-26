@@ -66,6 +66,8 @@ function updateChart(acceleration) {
 			yValue=acceleration.y,
 			zValue=acceleration.z;
 
+	$("#valuesText").val("X "+xValue+", Y "+yValue+", Z "+zValue);
+
 		//x value is time since start
 		xVal = Date.now() - startTime;
 		//concert from milliseocnds to seconds (divide by a thousand)
@@ -74,7 +76,7 @@ function updateChart(acceleration) {
 		//add them to the data points to draw
 		xps.push({x: xVal,y: xValue});
 		yps.push({x: xVal,y: yValue});
-		zps.push({x: xval,y: zValue});
+		zps.push({x: xVal,y: zValue});
 
 		//don't let the chart get too big
 		//if there are more than 100 data points then start removing older data points
