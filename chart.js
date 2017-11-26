@@ -33,12 +33,12 @@ $(document).on("pagecreate", "#chartPage", function () {
       	data: [{
       		type: "line",
       		dataPoints : xps
-      	}],
-				data: [{
+      	},
+				{
       		type: "line",
       		dataPoints : yps
-      	}],
-				data: [{
+      	},
+				{
       		type: "line",
       		dataPoints : zps
       	}]
