@@ -3,7 +3,7 @@ var dps = [],
 		yps=[],
 		zps=[];   //dataPoints.
 var chart, startTime, watchID;
-var accelerometerOptions = { frequency: 1000 };
+var accelerometerOptions = { frequency: 300 };
 
 $(document).on("pagecreate", "#chartPage", function () {
 
